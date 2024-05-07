@@ -68,7 +68,7 @@ class TestRagChain(unittest.TestCase):
             history_messages_key="history",
             history_factory_config=[
                 ConfigurableFieldSpec(
-                    id=self.session_id,
+                    id="session_id",
                     annotation=str,
                     name="Session ID",
                     description="Unique identifier for the " "session.",
