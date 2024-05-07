@@ -3,3 +3,6 @@ venv/
 tmp/
 .env
 *.pdf
+__pycache__/
+.mypy_cache/
+tests/__pycache__/
